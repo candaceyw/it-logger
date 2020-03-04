@@ -45,7 +45,7 @@ const EditLogModal = () => {
               onChange={e => setTech(e.target.value)}
             >
               <option value='' disabled>
-                Select Technician
+                Select Technician{' '}
               </option>
               <option value='John Doe'>John Doe</option>
               <option value='Sam Smith'>Sam Smith</option>
